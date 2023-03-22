@@ -1,0 +1,131 @@
+.rodape {
+    background-color: var(--branco-1);
+    padding: 1.0625rem 0 1.5rem 1.5rem;
+    border-top: 1px solid var(--cinza-1);
+}
+
+.rodape__titulo {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape, .lista-rodape, .lista-rodape__item {
+        display: flex;
+    }
+
+    .rodape {
+        justify-content: space-around;
+        padding: 3.4375rem 0 3.375rem 0;
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    .rodape__titulo {
+        margin: 0 6.625rem 0 1.5rem;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    .lista-rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 3.8125rem;
+    }
+
+    .lista-rodape__titulo {
+        color: var(--cinza-1);
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        padding-bottom: 1.5625rem;
+    }
+
+    .lista-rodape__item {
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .lista-rodape__link:hover {
+        color: var(--laranja);
+        text-shadow: 0.3px 0.3px var(--azul);
+    }
+
+    .lista-rodape__link {
+        color: var(--cinza-2);
+        text-decoration: none;
+        font-size: 0.875rem;
+        line-height: 1.3125rem;;
+
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    .rodape {
+        padding: 3.4375rem 10% 3.375rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .rodape {
+        padding: 3.4375rem 11% 3.375rem;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .rodape {
+        padding: 3.4375rem 13% 3.375rem;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .rodape {
+        padding: 3.4375rem 18% 3.375rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        justify-content:flex-start;
+        padding: 3.5rem 0;
+        max-width: 1728px;
+    }
+
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-1);
+        padding-left: 1.25rem;
+    }
+
+    .rodape__titulo {
+        margin: 0 7.5625rem 0 13.25rem;
+    }
+
+    .lista-rodape {
+        margin-right: 11.75rem;
+    }
+}
+
+@media screen and (min-width: 1729px) {
+    .rodape {
+        padding: 3.5rem 2.3%;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .rodape {
+        padding: 3.5rem 4%;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .rodape {
+        padding: 3.5rem 6%;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .rodape {
+        padding: 3.5rem 17%;
+    }
+}
